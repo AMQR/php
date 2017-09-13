@@ -1,1 +1,90 @@
-# First Chapter
+# 001、php，简单模拟登录
+
+
+
+> 首先你要有一个php服务器环境，这点自不必言
+
+# \# 简述
+
+就是简单的输入用户名和密码，验证是否登录成功，仅此而已。
+
+
+
+**login.html**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="./login.php" method="post">
+		姓名: <input type="text" name="username">
+		<br/>
+		密码: <input type="password" name="pass">
+		<br/>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>
+```
+
+
+
+\*\*login.php\*\*
+
+
+
+```
+<?php
+	header('Content-Type: text/html; charset=utf-8');
+
+	// 模拟关联数组
+	$users = array(
+		'zhangsan'=>123123,
+		'admin'=>111222,
+		'lisi'=>333444
+	);
+
+	// 检测数组中无没有某个key，有返true无返回false
+	// var_dump(array_key_exists('admin', $users));
+
+	// 接收用户的数据
+	$username = $_POST['username']; // 用户提交上来的用户名
+	$pass = $_POST['pass']; // 用户提交上来的密码
+
+	$users[$username];
+
+	// var_dump(array_key_exists($username, $users));·
+
+	// 是否存在某个用户
+	$hasusername = array_key_exists($username, $users);
+
+	// 不但存在某个用户并且提交上来的密码要和
+	// 数据库中的一致
+	if($hasusername && $pass == $users[$username]) {
+		echo '登录成功';
+
+		// 跳转地址
+		// header('location: http://www.baidu.com');
+		// header('refresh: 3; url=http://www.baidu.com');
+	} else {
+		echo '登录失败,请重试';
+		// header('refresh: 3; url=./login.html');
+	}
+
+?>
+```
+
+
+
+
+
+
+
+
+
+
+
