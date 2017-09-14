@@ -154,7 +154,15 @@ xhr.responseXML();
 
 > xhr.readyState = 0时，UNSENT open尚未调用
 >
-> xhr.readyState = 1时，OPENED open已调用
+> ---
+>
+> ---
+>
+> ---
+>
+> |  |  |
+> | :--- | :--- |
+> |  |  |
 >
 > xhr.readyState = 2时，HEADERS\_RECEIVED 接收到头信息
 >
@@ -193,8 +201,6 @@ xhr.setRequestHeader\('Content-Type', 'application/x-www-form-urlencoded'\);
 
 p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 26.0px 'Helvetica Neue'; color: \#000000}  
 span.s1 {font: 26.0px '.PingFang SC Light'}
-
-
 
 end
 
