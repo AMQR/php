@@ -191,12 +191,8 @@ if(xhr.readyState == 4 && xhr.status == 200) {
 
 xhr.setRequestHeader\('Content-Type', 'application/x-www-form-urlencoded'\);
 
-  
 p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 26.0px 'Helvetica Neue'; color: \#000000}  
-span.s1 {font: 26.0px '.PingFang SC Light'}  
-
-
-\#\#\#\# 完成
+span.s1 {font: 26.0px '.PingFang SC Light'}
 
 
 
