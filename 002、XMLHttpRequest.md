@@ -1,4 +1,4 @@
-# XMLHttpRequest
+# XMLHttpRequest 简单使用
 
 XMLHttpRequest是浏览器内建对象，用于在`后台与服务器通信`\(交换数据\) ，由此我们便可实现对网页的部分更新，而不是刷新整个页面。
 
