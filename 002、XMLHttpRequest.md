@@ -171,41 +171,34 @@ if(xhr.readyState == 4 && xhr.status == 200) {
 }
 ```
 
-
-
 ### 三、注意点
-
-
 
 #### get
 
-1、GET没有请求主体，使用xhr.send\(null\) 
+1、GET没有请求主体，使用xhr.send\(null\)
 
-2、GET可以通过在请求URL上添加请求参数 
+2、GET可以通过在请求URL上添加请求参数
 
-3、GET效率更好（应用多） 
+3、GET效率更好（应用多）
 
 4、GET大小限制约4K，POST则没有限制
 
-
-
 #### post
 
-5、POST可以通过xhr.send\('name=zhangsan&age=10'\) 
+5、POST可以通过xhr.send\('name=zhangsan&age=10'\)
 
-6、POST需要设置请求头 
+6、POST需要设置请求头
 
 xhr.setRequestHeader\('Content-Type', 'application/x-www-form-urlencoded'\);
 
+  
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 26.0px 'Helvetica Neue'; color: \#000000}  
+span.s1 {font: 26.0px '.PingFang SC Light'}  
 
 
-
+\#\#\#\# 完成
 
 
 
 end
-
-
-
-
 
