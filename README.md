@@ -4,6 +4,8 @@
 
 * [XMLHttpRequest 简单使用](https://github.com/AMQR/php/blob/master/002%E3%80%81XMLHttpRequest.md)
 
+* [003、xml和json解析 原生版](003、xml和json解析 原生版.md)
+
 
 
 
