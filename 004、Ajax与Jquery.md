@@ -485,8 +485,10 @@ jQuery把一个ajax请求分成了若干个阶段，不是所有请求都回调�
 
 	echo 'hello ajax';
 	// sleep(1);
-?>![](/assets/SETUP.zip)
-```
+?>```
+
+
+[ajaxSetup demo 链接](https://github.com/AMQR/php/blob/master/assets/SETUP.zip)
 .
 .
 
