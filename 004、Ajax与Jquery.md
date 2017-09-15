@@ -491,6 +491,7 @@ jQuery把一个ajax请求分成了若干个阶段，不是所有请求都回调�
 [ajaxSetup demo 链接](https://github.com/AMQR/php/blob/master/assets/SETUP.zip)
 .
 .
+## 练习
 
 [练习 注册校验表单](http://3679a84f.wiz03.com/share/s/0Suqxf0PsQ4c2O05hP16oW-S0U_ExZ2GA4o42g8nls2KN7xb)
 
