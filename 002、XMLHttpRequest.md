@@ -153,6 +153,7 @@ xhr.responseXML();
 * xhr.onreadystatechange = function \(\) {} 监听响应状态
 
 > xhr.readyState = 0时，UNSENT open尚未调用
+> xhr.readyState = 1时，OPENED open已调用 
 > xhr.readyState = 2时，HEADERS\_RECEIVED 接收到头信息
 > xhr.readyState = 3时，LOADING 接收到响应主体
 > xhr.readyState = 4时，DONE 响应完成
