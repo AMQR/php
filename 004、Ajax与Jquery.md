@@ -139,6 +139,63 @@ west_aj/html
 
 ```
 
+.
+.
+west.json
+
+```
+[
+	{
+		"name": "猴子",
+		"nickname": "孙悟空",
+		"arms": "金箍棒",
+		"num": 1,
+		"sex": "男"
+	},
+	{
+		"name": "猪",
+		"nickname": "朱悟能",
+		"arms": "九齿钉耙",
+		"num": 2,
+		"sex": "男"
+	},
+	{
+		"name": "胡子",
+		"nickname": "沙悟净",
+		"arms": "没想好",
+		"num": 3,
+		"sex": "男"
+	},
+	{
+		"name": "龙马",
+		"nickname": "没取上法号",
+		"arms": "提子吧",
+		"num": 4,
+		"sex": "男"
+	}
+]
+
+```
+.
+.
+west.php
+```
+<?php
+	// 指定文档类型  application/json
+	// 告诉浏览器这个文件要当成一个json来处理
+	header('Content-Type:application/json; charset=utf-8');
+	$result = file_get_contents('west.json');
+	//var_dump($result);  // 字符串
+	echo $result;
+?>
+
+```
+.
+.
+
+
+
+
 
 
 
